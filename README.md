@@ -84,7 +84,7 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
--
+-The closure is in the console.log statement because it is within the inner function but needs to reach into the outer function to grab name
 
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
 -When calling 'dansRoll' the ${name} will always be Dan but the ${newRoll} number could change.
